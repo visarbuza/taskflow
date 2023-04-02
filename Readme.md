@@ -63,4 +63,11 @@ func (t *lookup) Print() {
 
 ```
 
+Run TaskFlow with your implementations
 
+```go
+func main() {
+	f := &lookupFactory{}
+	taskflow.Run(f)
+}
+```
