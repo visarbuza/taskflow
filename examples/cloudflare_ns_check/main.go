@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/VisarBuza/taskflow"
+	"github.com/VisarBuza/taskflow/pkg/taskflow"
 	"net"
 	"strings"
 )
