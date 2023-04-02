@@ -2,6 +2,12 @@
 
 TaskFlow is a simple and efficient library for processing tasks concurrently in Go. It allows you to easily create, process, and print tasks in parallel, taking advantage of Go's goroutines and channels.
 
+### Inspired by
+
+This library was inspired by the following talk:
+
+- [dotGo 2014 - John Graham-Cumming](https://www.youtube.com/watch?v=woCg2zaIVzQ&ab_channel=dotconferences)
+
 
 ### Usage
 
