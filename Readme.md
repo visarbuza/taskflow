@@ -77,3 +77,27 @@ func main() {
 	taskflow.Run(f)
 }
 ```
+
+### Running the example
+
+```bash
+go run examples/cloudflare_ns_check/main.go < examples/cloudflare_ns_check/records
+```
+
+**OUTPUT**
+```txt
+facebook.com: other
+youtube.com: other
+google.com: other
+instagram.com: other
+gjirafa.com: cloudflare
+twitter.com: other
+linkedin.com: other
+vpapps.cloud: cloudflare
+```
+
+If you want to redirect the output to a file, you can use the following command:
+
+```bash
+go run examples/cloudflare_ns_check/main.go < examples/cloudflare_ns_check/records > output.txt
+```
