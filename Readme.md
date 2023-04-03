@@ -8,6 +8,9 @@ This library was inspired by the following talk:
 
 - [dotGo 2014 - John Graham-Cumming](https://www.youtube.com/watch?v=woCg2zaIVzQ&ab_channel=dotconferences)
 
+### Architecture Diagram
+
+![Architecture of the program](assets/architecture.png)
 
 ### Usage
 
